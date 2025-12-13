@@ -6,7 +6,7 @@
         <li>Services</li>
         <li>About</li>
         <li>Contact us</li>
-                <li>Contact us</li>
+              
 </ul>
       </nav>
     );
