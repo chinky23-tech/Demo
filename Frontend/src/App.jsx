@@ -1,12 +1,13 @@
-import Cat from "./Cat";
+import Cat from "./components/Cat";
+import Navbar from "./components/Navbar";
 
   function App() {
   return (
     <>
-    <h1>Hello from React Component!</h1>
-    <p>This is a very basic example of how React works.</p>
 
+      <Navbar />
       <Cat />
+   
     </>
   );
 }
