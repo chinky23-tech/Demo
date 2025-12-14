@@ -1,10 +1,10 @@
-function Profile({name, role, description}){
-   return(
-      <div>
-     <h2>{name}</h2>
-     <h4>{role}</h4>
-     <p>{description}</p>
-     </div>
-   );
+function Profile({name, age}){
+return(
+   <div>
+   <h1>{name}</h1>
+   <h2>{age}</h2>
+   </div>
+);
 }
+
 export default Profile;
